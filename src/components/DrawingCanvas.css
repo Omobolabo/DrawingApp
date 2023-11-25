@@ -1,0 +1,13 @@
+canvas {
+  max-width: calc(100% - 40px); /* Adjusted to have a 20px gap on both sides */
+  display: block;
+  margin: 20px auto; /* Center the canvas horizontally with a 20px gap on top and bottom */
+  border: 2px solid #406c81;
+  cursor: crosshair;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 9px;
+}
+
+canvas.eraser {
+  background-color: #fff;
+}
